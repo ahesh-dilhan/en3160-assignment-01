@@ -5,11 +5,17 @@
 grayscale image with width 720 and height 810. The embedded JPEG bytes are
 preserved; no page screenshot or image resampling is used.
 
+`q2_brain_pd.png` matches the embedded Figure 2 image on page 2 of the same
+assignment PDF pixel for pixel. It has width 181 and height 217 and is stored
+as RGB. The notebook loads it as 8-bit grayscale for the intensity
+transformations. No screenshot, resizing, or spatial filtering is used to
+produce the input image.
+
 The source assignment PDF was supplied separately and is not included in this
 repository.
 
 A matching separately supplied assignment image archive has not been located.
-The embedded image is sufficient for the current Question 1 experiment, but it
-has not been verified as byte-identical to an independently supplied original.
+The embedded images are used for the current Question 1 and 2 experiments, but
+have not been verified as byte-identical to independently supplied originals.
 Question 8 will need the specified two original images and their two smaller
 versions. Do not substitute screenshots for those evaluation inputs.
