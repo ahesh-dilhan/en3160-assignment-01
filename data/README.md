@@ -11,11 +11,16 @@ as RGB. The notebook loads it as 8-bit grayscale for the intensity
 transformations. No screenshot, resizing, or spatial filtering is used to
 produce the input image.
 
+`q3_gamma_photo.jpg` is extracted directly from the embedded Figure 3 image
+on page 2 of the assignment PDF. It is a 720 x 480 RGB JPEG, with the embedded
+JPEG bytes preserved. The notebook reads it in OpenCV's BGR order and converts
+it to RGB for display and floating-point Lab for gamma correction.
+
 The source assignment PDF was supplied separately and is not included in this
 repository.
 
 A matching separately supplied assignment image archive has not been located.
-The embedded images are used for the current Question 1 and 2 experiments, but
+The embedded images are used for the current Question 1-3 experiments, but
 have not been verified as byte-identical to independently supplied originals.
 Question 8 will need the specified two original images and their two smaller
 versions. Do not substitute screenshots for those evaluation inputs.
