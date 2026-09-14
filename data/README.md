@@ -16,11 +16,16 @@ on page 2 of the assignment PDF. It is a 720 x 480 RGB JPEG, with the embedded
 JPEG bytes preserved. The notebook reads it in OpenCV's BGR order and converts
 it to RGB for display and floating-point Lab for gamma correction.
 
+`q4_vibrance.png` is extracted directly from the embedded Figure 4 image on
+page 2 of the assignment PDF. It is a 780 x 438 RGB PNG. The notebook converts
+the image to 8-bit HSV, modifies saturation, and recombines the original hue
+and value channels before converting to RGB for display.
+
 The source assignment PDF was supplied separately and is not included in this
 repository.
 
 A matching separately supplied assignment image archive has not been located.
-The embedded images are used for the current Question 1-3 experiments, but
+The embedded images are used for the current Question 1-4 experiments, but
 have not been verified as byte-identical to independently supplied originals.
 Question 8 will need the specified two original images and their two smaller
 versions. Do not substitute screenshots for those evaluation inputs.
