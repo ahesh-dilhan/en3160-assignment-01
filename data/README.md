@@ -31,11 +31,16 @@ page 3 of the assignment PDF. It is a 3840 x 2160 RGB JPEG, with the embedded
 JPEG bytes preserved. Thresholding and masked histogram equalization use the
 full-resolution image; plots scale it only for display.
 
+`q7_sobel.png` is extracted directly from the embedded Figure 7 image on
+page 4 of the assignment PDF. It is a 364 x 380 RGB PNG. The notebook reads
+it as grayscale and applies all three Sobel implementations to the same
+input without resizing or additional blurring.
+
 The source assignment PDF was supplied separately and is not included in this
 repository.
 
 A matching separately supplied assignment image archive has not been located.
-The embedded images are used for the current Question 1-6 experiments, but
+The embedded images are used for the current Question 1-7 experiments, but
 have not been verified as byte-identical to independently supplied originals.
 Question 8 will need the specified two original images and their two smaller
 versions. Do not substitute screenshots for those evaluation inputs.
