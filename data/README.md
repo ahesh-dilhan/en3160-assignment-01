@@ -21,11 +21,16 @@ page 2 of the assignment PDF. It is a 780 x 438 RGB PNG. The notebook converts
 the image to 8-bit HSV, modifies saturation, and recombines the original hue
 and value channels before converting to RGB for display.
 
+`q5_histogram.png` is extracted directly from the embedded Figure 5 image on
+page 3 of the assignment PDF. It is a 500 x 500, 8-bit grayscale PNG. The
+notebook applies its own global histogram-equalization implementation to
+this image without resizing or preprocessing it.
+
 The source assignment PDF was supplied separately and is not included in this
 repository.
 
 A matching separately supplied assignment image archive has not been located.
-The embedded images are used for the current Question 1-4 experiments, but
+The embedded images are used for the current Question 1-5 experiments, but
 have not been verified as byte-identical to independently supplied originals.
 Question 8 will need the specified two original images and their two smaller
 versions. Do not substitute screenshots for those evaluation inputs.
