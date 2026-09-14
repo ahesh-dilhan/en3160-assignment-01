@@ -1,7 +1,20 @@
 # EN3160 Assignment 1
 
 Work through Intensity Transformations and Neighborhood Filtering one question
-at a time. The current notebook covers Questions 1-7.
+at a time. The recovered notebook contains Questions 1-10.
+
+## Recovery status
+
+All ten sections are present. Questions 5-7 were restored from GitHub while
+preserving the local Questions 1-4 and 8-10. Question 8's Python was separated
+from its Markdown into a code cell. Recovery does not mean all answers are
+correct: Questions 8-10 still need the fixes identified in the review.
+
+Pending fixes include the Q8 input pairs and checks, the Q9 mask count,
+segmentation boundary, background display and discussion, and the Q10 range
+sigma, comparable filtering support, and custom-result display. Questions
+8-10 have not been rerun as part of recovery. The final submission PDF is
+also still pending.
 
 ## Open the notebook
 
@@ -42,7 +55,7 @@ Sobel filtering using signed float64 responses and matching reflected borders.
 
 ## Files
 
-- `assignment_01.ipynb`: executed working notebook for Questions 1-7.
+- `assignment_01.ipynb`: recovered Questions 1-10; earlier outputs retained.
 - `data/q1_portrait.jpg`: the image embedded in Figure 1b of the assignment PDF.
 - `data/q2_brain_pd.png`: the proton-density brain image embedded in Figure 2.
 - `data/q3_gamma_photo.jpg`: the photograph embedded in Figure 3.
